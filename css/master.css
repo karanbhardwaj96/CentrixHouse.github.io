@@ -82,7 +82,7 @@ body {
 }
 
 
-.thumb:hover .image{
+.thumb:hover .image {
   top: -250px;
 }
 
@@ -141,3 +141,8 @@ body {
 #clothes-men .image {
   background: url('/images/clothing-men.jpg') center;
 }
+
+
+/* Featurrette */
+
+
