@@ -1,174 +1,69 @@
-html {
-  background: white;
-}
-
-header div.header-top a {
-  text-decoration: none;
-  color: white;
-  font-weight: 100;
-}
-
-.wrapper {
-  margin: 20px auto;
-  max-width: 90%;
-}
-
-header div.header-top {
-  border: 1px solid black;
-  display: flex;
-  height: 40px;
-  margin: 0px;
-  padding: 0px;
-}
+/*
+ * Body 
+ */
 
 body {
-  font-family: 'Arial', sans-serif;
+  box-shadow: inset 0px 0px 30px #000000;
 }
 
-header div.header-top h2 {
-  color: black;
-  background: white;
-  max-width: 300px;
-  margin-top: 5px;
-  padding-right: 18px;
-  padding-left: 20px;
-  display: flex;
-  align-content: center;
-  text-align: center;
-  justify-content: flex-start;
+/*
+ * Header
+ */
+#nav-con {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
   
 }
 
-header div.header-top h2 > a {
-  color: black;
-  font-weight: 700;
-} 
-
-
-header div.message {
-  background: #1a374c;
-  box-shadow: inset 0px 0px 50px #17191c;
-  max-width: 1500px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: 0px;
-  padding: 0px;
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
-header div.message p {
-  margin: 8px 10px 8px 100px;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  font-size: 0.8em;
-}
-
-@media screen and (max-width: 640px) {
-  header div.message p {
-    display: none;
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+    margin: 5px;
+  }
+  .masthead-nav {
+    float: right;
+    margin: 5px;
   }
 }
 
-header div.header-middle {
-  background: #1a374c;
-  height: 40px;
-  display: flex;
-  align-content: ;
-  justify-content: space-around;
-  box-shadow: inset 0px 0px 50px #17191c;
-  transition: all 0.2s ease;
-}
 
-header div.header-middle a {
-  color: white;
-  text-decoration: none;
-  padding: 6px;
-  margin: 6px;
-}
-
-
-header div.header-middle a:hover {
-  background-color: #315168;
-  border-bottom: 3px solid #dae5ed;
-}
-
-
-/*  CARAOUSEL !!!!! */
-
-header div.header-bottom {
-  width: ;
-  height: 350px;
-  margin-left: 20px;
-  position: relative;
-  overflow: hidden;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  padding: 3px;
-  border: #315168 solid 2px;
-  border-radius: 5px;
-}
-
-header div.slide {
-  position: absolute;
-}
-
-header div.slide-text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
-  color: white;
-  background: #7f7f7f;
-  background: rgba(0,0,0,0.5);
-}
-
-header div.slider-nav {
-  display: inline-flex;
-  /*background: #1a374c*/;
-  box-shadow: inset 0px 0px 50px #17191c;
-  padding: 0px;
-  margin: 0px;
-}
-
-header div.nav-btn {
-  display: flex;
-  height: 72px;
-  justify-content: space-around;
-  /*background-color: #315168;*/
-  border-right: 10px solid #dae5ed;
-  /*border-bottom: 2px solid black;*/
-  padding: 0px;
-  margin: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
+#panel-block {
+  border: 2px solid #213442;
+  border-left: 10px solid #213442;
+  box-shadow: 0px 0px 3px #1b2a35;
+  margin-bottom: 50px;
+  max-width: 500px;
 }
