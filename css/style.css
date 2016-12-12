@@ -32,6 +32,7 @@ section.banner .box {
   width: 30%;
   background: rgba(0, 0, 0, 0.8);
   margin-left: 62%;
+  border-radius: 0px;
 }
 section.banner .box .title, section.banner .box .subtitle {
   color: #fff;
