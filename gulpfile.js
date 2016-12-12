@@ -1,9 +1,9 @@
 let gulp = require('gulp');
-let webserver = require('webserver');
+let webserver = require('gulp-webserver');
 
-gulp.task('webserver', function() {
-    return gulp.src('')
-      .pipe(webserver({
-          livereload: true
-      }));
+gulp.task('webserver', function () {
+  return gulp.src('')
+    .pipe(webserver({
+      livereload: true
+    }));
 });
