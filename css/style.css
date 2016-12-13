@@ -110,3 +110,16 @@ section.banner .box .title, section.banner .box .subtitle {
   height: 250px;
   width: 90%;
 }
+
+.product {
+  height: 1350px;
+}
+
+.product > .container > .columns > .column {
+  height: 400px;
+} 
+
+.product > .container > .columns > .column.is-one-third > .container > .card {
+  height: 100%;
+  width: 90%;
+}
