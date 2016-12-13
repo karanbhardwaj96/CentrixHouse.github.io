@@ -99,3 +99,14 @@ section.banner .box .title, section.banner .box .subtitle {
   color: white;
   text-align: center;
 }
+
+.service > .container > .columns > .column {
+  height: 300px;
+  /*border: 1px solid black;*/
+
+} 
+
+.service > .container > .columns > .column.is-one-third > .container > .card {
+  height: 250px;
+  width: 90%;
+}
