@@ -60,3 +60,12 @@ section.banner .box .title, section.banner .box .subtitle {
   background: #000;
   height: 300px;
 }
+
+.service-grid {
+  height: 700px;
+}
+
+.service-grid > .columns > .column {
+  height: 300px;
+  border: 1px solid black;
+}
