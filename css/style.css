@@ -61,11 +61,41 @@ section.banner .box .title, section.banner .box .subtitle {
   height: 300px;
 }
 
-/*.service-grid {
-  height: 700px;
+.footer > .container > .box-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #fff;
 }
 
-.service-grid > .columns > .column {
-  height: 300px;
-  border: 1px solid black;
-}*/
+.footer > .container > .box-footer > .left, .footer > .container > .box-footer > .center, .footer > .container > .box-footer > .right {
+  width: 30%;
+  border: 1px solid white;
+  padding: 5px;
+} 
+
+.footer > .container > .box-footer > .left > .footer-heading, .footer > .container > .box-footer > .right > .footer-heading, .footer > .container > .box-footer > .center > .footer-heading {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
+
+.footer > .container > .box-footer > .left > .footer-text, .footer > .container > .box-footer > .right > .footer-text, .footer > .container > .box-footer > .center > .footer-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.a-hackfix {
+  text-decoration: none;
+  color: white;
+}
+
+.footer > .container > .box-footer2 {
+  border: 1px solid white;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
