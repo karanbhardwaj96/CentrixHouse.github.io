@@ -35,6 +35,24 @@ section.banner.map {
   padding-bottom: 0px;
 }
 
+section.banner.products {
+  background-image: url("/images/new-images/tvcover1600.jpg");
+  background-size: cover;
+  background-position: center;  
+}
+
+section.banner.about {
+  background-image: url("/images/new-images/tvcover2000.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
+section.banner.services {
+  background-image: url("/images/new-images/tvcover20003.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
 section.banner .box {
   height: inherit;
   width: 30%;
@@ -146,3 +164,16 @@ section.contact > .container > .box.contact-box > .left-box  {
   text-align: left;
   padding: 40px;
 } 
+
+.card-footer {
+  background: #111;
+  color: #fff;
+}
+
+.card-footer > a {
+  color: #fff;
+}
+
+.card-content h1 {
+  font-weight: bold;
+}
