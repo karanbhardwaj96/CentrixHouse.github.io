@@ -130,7 +130,6 @@ section.banner .box .title, section.banner .box .subtitle {
 .service > .container > .columns > .column {
   height: 300px;
   /*border: 1px solid black;*/
-
 } 
 
 .service > .container > .columns > .column.is-one-third > .container > .card {
