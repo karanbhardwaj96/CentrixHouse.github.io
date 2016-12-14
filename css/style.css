@@ -35,10 +35,6 @@ section.banner.map {
   padding-bottom: 0px;
 }
 
-section.banner > .box > .hero-body > .container > h1.title {
-  font-size: 2em;
-}
-
 section.banner.products {
   background-image: url("/images/new-images/tvcover1600.jpg");
   background-size: cover;
@@ -64,6 +60,7 @@ section.banner .box {
   /*margin-left: 62%;*/
   margin-left: 10%;
   border-radius: 0px;
+  display: none;
 }
 section.banner .box .title, section.banner .box .subtitle {
   color: #fff;
