@@ -98,7 +98,7 @@ section.banner .box .title, section.banner .box .subtitle {
 
 .footer > .container > .box-footer > .left, .footer > .container > .box-footer > .center, .footer > .container > .box-footer > .right {
   width: 30%;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   padding: 5px;
 } 
 
@@ -120,7 +120,7 @@ section.banner .box .title, section.banner .box .subtitle {
 }
 
 .footer > .container > .box-footer2 {
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin-top: 20px;
   padding: 10px;
   color: white;
