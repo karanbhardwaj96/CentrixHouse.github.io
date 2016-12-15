@@ -36,7 +36,7 @@ section.banner.map {
 }
 
 section.banner.products {
-  background-image: url("/images/new-images/tvcover1600.jpg");
+  background-image: url("/images/image3/tvcover1600.jpg");
   background-size: cover;
   background-position: center;  
 }
@@ -48,7 +48,7 @@ section.banner.about {
 }
 
 section.banner.services {
-  background-image: url("/images/new-images/tvcover20003.jpg");
+  background-image: url("/images/image3/tvcover20003.jpg");
   background-size: cover;
   background-position: center; 
 }
